@@ -1,0 +1,17 @@
+{
+  "name": "05-wheaterapp",
+  "version": "1.0.0",
+  "description": "aplicación con APIREST para saber el clima por consola de una ciudad",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "colors": "^1.4.0",
+    "dotenv": "^8.2.0",
+    "yargs": "^16.2.0"
+  }
+}
