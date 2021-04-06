@@ -9,7 +9,7 @@ const getCoordinates = async (city) => {
 
   const result = await instance.get();
   if (result.data.length == 0) {
-    throw new Error` no se han encontrado resultados para ${city}`();
+    throw new Error(` no se han encontrado resultados para ${city}`);
   }
   const data = result.data.features[0];
   const lng = data.geometry.coordinates[0];
